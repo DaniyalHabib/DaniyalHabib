@@ -293,8 +293,12 @@ h6 {
   }
 }
 
-.scrolled .header {
+/* .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+} */
+
+.scrolled .header {
+  box-shadow: 0px 0 18px rgba(31, 201, 16, 0.1);
 }
 
 /* Global Header on Scroll
@@ -302,6 +306,8 @@ h6 {
 .scrolled .header {
   --background-color: rgba(21, 34, 43, 0.85);
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -942,7 +948,8 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb,  transparent 30%);
+  /* background: color-mix(in srgb, var(--background-color), transparent 30%); */
   position: absolute;
   inset: 0;
   z-index: 2;
